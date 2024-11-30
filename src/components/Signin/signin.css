@@ -1,0 +1,58 @@
+.signin-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 30px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .signin-title {
+    text-align: center;
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .signin-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .signin-input {
+    margin-bottom: 15px;
+  }
+  
+  .signin-input .MantineInput-input {
+    padding: 12px 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  .signin-input .MantineInput-input:focus {
+    border-color: #228be6;
+    box-shadow: 0 0 0 2px rgba(34, 139, 230, 0.2);
+  }
+  
+  .signin-input .MantineInput-label {
+    font-weight: bold;
+    font-size: 14px;
+    color: #495057;
+  }
+  
+  .signin-button {
+    background-color: #228be6;
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .signin-button:hover {
+    background-color: #1c7ed6;
+  }
+  
